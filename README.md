@@ -43,6 +43,6 @@ Incluído o arquivo deployment.yaml. Reiniciei o cluster com a porta 30000 expos
 Para iniciar o deployment
 
 ```sh
-kubectl apply -f meudeployment
+kubectl apply -f deployment.yaml
 ```
 
