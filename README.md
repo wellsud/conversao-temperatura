@@ -33,3 +33,16 @@ Como um extra coloquei a imagem no dockerhub. Para executar a aplicação direta
 
 ```sh
  docker container run -d -p 8080:8080 wellsud/conversao-temperatura:aula1
+ 
+ ## AULA 2
+
+Boa! Agora a galera entendeu e já quer começar a implementar os projetos no Kub>
+
+Incluído o arquivo deployment.yaml. Reiniciei o cluster com a porta 30000 expos>
+
+Para iniciar o deployment
+
+```sh
+kubectl apply -f meudeployment
+```
+
